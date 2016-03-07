@@ -11,10 +11,11 @@ public class Hero {
 	private Texture img;
 	private SpriteBatch batch;
 	public Hero(SpriteBatch batch){
-		img = new Texture("Image.jpg");
+		img = new Texture("Untitled.png");
 		sprite = new Sprite(img,0,0,64,64);
 		sprite.setPosition(240, 120);
 		this.batch = batch;
+		
 	}
 	public void render() {
 		batch.begin();
