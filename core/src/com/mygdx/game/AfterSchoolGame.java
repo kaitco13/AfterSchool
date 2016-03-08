@@ -11,12 +11,10 @@ public class AfterSchoolGame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		generalBatch = new SpriteBatch();
-		player = new Hero(generalBatch); 
 	}
 
 	@Override
 	public void render () {
-		Gdx.gl.glClearColor(0, 0, 0, 0);
-		player.render();
+		Gdx.gl.glClearColor(100, 100, 100, 100);
 	}
 }
