@@ -11,7 +11,7 @@ public class Hero {
 	private Texture img;
 	private SpriteBatch batch;
 	public Hero(SpriteBatch batch){
-		img = new Texture("Untitled");
+		img = new Texture("Image.jpg");
 		sprite = new Sprite(img,0,0,64,64);
 		sprite.setPosition(240, 120);
 		this.batch = batch;
