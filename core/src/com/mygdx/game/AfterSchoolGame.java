@@ -18,5 +18,5 @@ public class AfterSchoolGame extends ApplicationAdapter {
 	public void render () {
 		Gdx.gl.glClearColor(100, 100, 100, 100);
 		player.render();
-	}
+	} //hi hello wassup
 }
